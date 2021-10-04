@@ -1,0 +1,32 @@
+.cover {
+  max-width: 1024px;
+  display: grid;
+  grid-template-columns: max-content;
+  grid-template-rows: max-content 1fr 1fr;
+  margin: 92px auto 0px auto;
+  overflow: hidden;
+}
+
+@media all and (max-width: 1280px) {
+  .cover {
+    margin-top: 92px;
+  }
+}
+  
+@media all and (max-width: 1024px) {
+  .cover {
+    margin-top: 92px;
+  }
+}
+  
+@media all and (max-width: 768px) {
+  .cover {
+    margin-top: 90px;
+  }
+}
+  
+@media all and (max-width: 320px) {
+  .cover {
+    margin-top: 66px;
+  }
+}

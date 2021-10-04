@@ -1,0 +1,36 @@
+.lead__road {
+  width: 884px;
+  height: 248px;
+  margin: 141px auto 0px auto;
+  z-index: 5;
+  grid-column: 1;
+  grid-row: 3;
+}
+
+@media all and (max-width: 1280px) {
+  .lead__road {
+    max-width: 937px;
+    max-height: 263px;
+  }
+}
+  
+@media all and (max-width: 1024px) {
+  .lead__road {
+    max-width: 884px;
+    max-height: 248px;
+  }
+}
+  
+@media all and (max-width: 768px) {
+  .lead__road {
+    max-width: 731px;
+    max-height: 205px;
+  }
+}
+  
+@media all and (max-width: 320px) {
+  .lead__road {
+    max-width: 305px;
+    max-height: 86px;
+  }
+}

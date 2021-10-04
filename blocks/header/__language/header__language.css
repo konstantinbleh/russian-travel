@@ -1,0 +1,26 @@
+.header__language {
+  display: grid;
+  grid-template-columns: max-content max-content;
+  gap: 18px;
+  justify-content: right;
+}
+
+@media all and (min-width: 1280px) {
+  .header__language {
+  }
+}
+  
+@media all and (min-width: 1024px) {
+  .header__language {
+  }
+}
+  
+@media all and (min-width: 768px) {
+  .header__language {
+  }
+}
+  
+@media all and (min-width: 320px) {
+  .header__language {
+  }
+}

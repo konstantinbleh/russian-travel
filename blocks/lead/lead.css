@@ -1,0 +1,6 @@
+.lead {
+  display: grid;
+  grid-template-columns: max-content;
+  grid-template-rows: max-content max-content max-content max-content;
+  justify-content: center;
+}

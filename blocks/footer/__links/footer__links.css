@@ -1,0 +1,31 @@
+.footer__links {
+  display: grid;
+  grid-template-columns: repeat(5, max-content);
+  justify-content: space-between;
+  gap: 0px 18px;
+}
+
+@media all and (max-width: 1280px) {
+  .footer__links {
+  }
+}
+  
+@media all and (max-width: 1024px) {
+  .footer__links {
+    
+  }
+}
+  
+@media all and (max-width: 768px) {
+  .footer__links {
+  
+  }
+}
+  
+@media all and (max-width: 320px) {
+  .footer__links {
+    grid-template-columns: max-content;
+    grid-template-rows: repeat(5, max-content);
+    gap: 32px 0px;
+  }
+}

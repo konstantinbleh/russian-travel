@@ -1,0 +1,27 @@
+.geography {
+  margin: 12px auto 0px auto;
+}
+
+@media all and (max-width: 1280px) {
+  .geography {
+    max-width: 984;
+  }
+}
+  
+@media all and (max-width: 1024px) {
+  .geography {
+    max-width: 928px;
+  }
+}
+  
+@media all and (max-width: 768px) {
+  .geography {
+    max-width: 720px;
+  }
+}
+  
+@media all and (max-width: 320px) {
+  .geography {
+    max-width: 320px;
+  }
+}

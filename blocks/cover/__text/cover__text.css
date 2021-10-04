@@ -1,0 +1,6 @@
+.cover__text {
+  align-self: center;
+  margin: auto;
+  grid-row: 1;
+  grid-column: 1;
+}

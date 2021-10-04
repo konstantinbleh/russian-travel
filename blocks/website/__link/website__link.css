@@ -1,0 +1,19 @@
+.website__link {
+  color: #ffffff;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 22px;
+  letter-spacing: 2px;
+  text-decoration: underline;
+  opacity: 1;
+  transition-property: opacity;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 1s;
+}
+
+.website__link:hover {
+  opacity: 0.8;
+}

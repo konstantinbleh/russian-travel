@@ -1,0 +1,41 @@
+.footer__link {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 18px;
+  color: #ffffff;
+  text-decoration: none;
+  opacity: 1;
+  transition-property: opacity;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 1s;
+}
+
+.footer__link:hover {
+  opacity: 0.5;
+}
+
+@media all and (max-width: 1280px) {
+  .footer__link {
+    
+  }
+}
+  
+@media all and (max-width: 1024px) {
+  .footer__link {
+  }
+}
+  
+@media all and (max-width: 768px) {
+  .footer__link {
+  }
+}
+  
+@media all and (max-width: 320px) {
+  .footer__link {
+    font-size: 1.5rem;
+    line-height: 24px;
+  }
+}
